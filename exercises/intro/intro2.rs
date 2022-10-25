@@ -6,5 +6,5 @@
 
 fn main() {
     let world: &str = "world";
-    println!("Hello {}!", world);
+    println!("Hello {world}!", world=world);
 }
