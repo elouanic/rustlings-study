@@ -5,6 +5,6 @@
 
 fn main() {
     let x: i32;
-    let x = 31231213123212;
+    let x = 32;
     println!("Number {}", x);
 }
