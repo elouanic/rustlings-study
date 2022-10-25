@@ -13,7 +13,12 @@
 mod tests {
     #[test]
     fn you_can_assert() {
-        let d = 0;
-        assert!(d = 1);
+        let mut d = 0;
+        assert!(loop {
+            d += 1;
+            if d == 100 {
+                break true
+            }
+        });
     }
 }
