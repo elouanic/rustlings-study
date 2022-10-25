@@ -5,5 +5,6 @@
 // I AM NOT DONE
 
 fn main() {
-    println!("Hello {}!");
+    let world: &str = "world";
+    println!("Hello {}!", world);
 }
